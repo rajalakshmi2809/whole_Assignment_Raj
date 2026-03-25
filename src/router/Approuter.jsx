@@ -12,19 +12,15 @@ const Approuter = () => {
   return (
     <>
     <Routes>
-
-
-    <Route path ="/" element = {<Home/>}/>
+       <Route path ="/" element = {<Home/>}/>
         
-    <Route path ="/assignment2" element ={<Day2/>} />
-            <Route path ="/assignment3" element ={<Day3/>} />
-             <Route path ="/assignment4" element ={<Day4/>} />
+              <Route path ="/assignment2" element ={<Day2/>} />
+              <Route path ="/assignment3" element ={<Day3/>} />
+              <Route path ="/assignment4" element ={<Day4/>} />
               <Route path ="/assignment5" element ={<Day5/>} />
               <Route path ="/assignment6" element ={<Day6/>} />
-                  <Route path ="/usecontext" element ={<Day14/>} />
-
-    </Routes>
-    
+              <Route path ="/usecontext" element ={<Day14/>} />
+      </Routes>
     
     </>
   )

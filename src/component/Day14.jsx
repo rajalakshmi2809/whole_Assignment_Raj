@@ -3,6 +3,12 @@ import Provider from "../usecontext/Provider"
 import Datas from "../usecontext/Datas"
 import ThemeProvider from "../usecontext/ThemeProvider"
 import ToggleTheme from '../usecontext/ToggleTheme'
+import LanguageData from "../usecontext/LanguageData"
+import LanguageProvider from "../usecontext/LanguageProvider"
+import CartProvider from "../usecontextproduct/CartProvider"
+import Mainpage from "../usecontextproduct/Mainpage"
+
+
 
 const Day14 = () => {
   const navigate = useNavigate()
@@ -13,18 +19,35 @@ const Day14 = () => {
 
   return (
     <>
-    <div className="justify-center items-center">
+     <div>
+    <div >
       <Provider>
         <Datas />
       </Provider>
     </div>
-    <div className=" justify-center items-center ml-19">
+    <div>
       <ThemeProvider>
         <ToggleTheme/>
       </ThemeProvider>
-     </div> 
+     </div>
+     <div>
+      <LanguageProvider>
+        <LanguageData/>
+      </LanguageProvider>
+     </div>
 
-      <button onClick={handleclick7}>Go Home</button>
+
+     <div>
+     <CartProvider>
+      <Mainpage/>
+     </CartProvider>
+
+     </div>
+     </div>  
+
+
+
+       <button onClick={handleclick7}>Go Home</button>
     </>
   )
 }

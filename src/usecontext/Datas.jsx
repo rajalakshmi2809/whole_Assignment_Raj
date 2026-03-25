@@ -24,13 +24,13 @@ const Datas = () => {
 
   return (
     <>
-    <div className=" bg-amber-300 p-50 justify-center w-80 flex  flex-col  h-50  ">
-      <h1>Usecontext practise</h1>
+    <div className="bg-green-400 p-10 w-100 h-100 text-2xl justify-center ml-150 mb-4 rounded-3xl ">
+      <h1 className="font-bold">Usecontext practise</h1>
       <h1>Name: {data.Name}</h1>
       <h1>Age: {data.Age}</h1>
 
-      <button onClick={dataclickone}>change name</button>
-      <button onClick={dataclicktwo}>change age</button>
+      <button onClick={dataclickone} className="rounded-2xl bg-yellow-300 p-3 w-50 mb-6">change name</button>
+      <button onClick={dataclicktwo} className="rounded-2xl bg-yellow-300 p-3 w-50">change age</button>
       </div>
     </>
   )
