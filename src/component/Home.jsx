@@ -29,6 +29,9 @@ const Home = () => {
      const handleclick16=()=>{
       navigate("/localstorage")
     }
+    const handleclick17=()=>{
+      navigate("/usestate")
+    }
   return (
     <>
     <div className="bg-green-400 p-3 h-500 text-center mb-100 ">
@@ -44,6 +47,7 @@ const Home = () => {
          <button onClick={handleclick7} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement14</button>
           <button onClick={handleclick15} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement15</button>
           <button onClick={handleclick16} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement16</button>
+           <button onClick={handleclick17} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement17</button>
 
 
 

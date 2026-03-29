@@ -8,6 +8,7 @@ import Day6 from '../component/Day6'
 import Day14 from '../component/Day14'
 import Day15 from '../component/Day15'
 import Day16 from '../component/Day16'
+import Day17 from '../component/Day17'
 
 
 const Approuter = () => {
@@ -24,6 +25,7 @@ const Approuter = () => {
               <Route path ="/usecontext" element ={<Day14/>} />
                  <Route path ="/useref" element ={<Day15/>} />
                   <Route path ="/localstorage" element ={<Day16/>} />
+                  <Route path ="/usestate" element ={<Day17/>} />
       </Routes>
     
     </>
