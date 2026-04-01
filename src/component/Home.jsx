@@ -32,13 +32,16 @@ const Home = () => {
     const handleclick17=()=>{
       navigate("/usestate")
     }
+    const handleclick18 = ()=>{
+      navigate("/usememo")
+    }
   return (
     <>
     <div className="bg-green-400 p-3 h-500 text-center mb-100 ">
       <div >
         <h1 className="bg-black text-white rounded-2xl mb-20 p-5  ">Home page</h1>
         </div>
-        <div className="flex flex-col   mb-5 gap-10 justify-center items-center">
+        <div className="flex flex-col  mb-5 gap-10 justify-center items-center">
         <button onClick={handleclick2} className="bg-red-500 rounded-2xl p-4   w-50  font-bold">Assignement2</button>
          <button onClick={handleclick3} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement3</button>
          <button onClick={handleclick4} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement4</button>
@@ -48,6 +51,7 @@ const Home = () => {
           <button onClick={handleclick15} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement15</button>
           <button onClick={handleclick16} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement16</button>
            <button onClick={handleclick17} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement17</button>
+            <button onClick={handleclick18} className="bg-red-500 rounded-2xl p-4  w-50  font-bold">Assignement18</button>
 
 
 
