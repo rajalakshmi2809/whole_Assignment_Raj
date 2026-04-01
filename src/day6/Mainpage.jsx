@@ -1,7 +1,7 @@
 
 
-import Linker from '../day6/Linker'
-import AppRoute from '../day6/AppRoute'
+import Linker from './Linker'
+import AppRoute from './AppRoute'
 const Mainpage = () => {
   return (
     <>

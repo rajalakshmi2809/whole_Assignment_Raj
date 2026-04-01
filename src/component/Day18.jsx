@@ -2,8 +2,13 @@ import React from 'react'
 import Inputnumber from '../usememo/Inputnumber'
 import LargeArray from '../usememo/LargeArray'
 import PrimeNumbers from '../usememo/PrimeNumbers'
+import { useNavigate } from 'react-router-dom'
 
 const Day18 = () => {
+  const navigate = useNavigate()
+    const handleclick=()=>{
+         navigate("/")
+        }
   return (
     <>
     <div className='bg-yellow-300 p-7 '>
@@ -20,7 +25,7 @@ const Day18 = () => {
       <PrimeNumbers/>
     </div>
     </div>
-    
+    <button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
     
     
     </>

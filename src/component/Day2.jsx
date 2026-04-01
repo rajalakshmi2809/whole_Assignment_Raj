@@ -12,8 +12,9 @@ const Day2 = () => {
   return (
     <>
     <div>
-        <button onClick={handleclick} className="bg-red-500 border-2 rounded-2xl ml-500 p-10 " >Go to Homepage</button>
+        
         <Homepage/> 
+        <button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
       
     </div>
     

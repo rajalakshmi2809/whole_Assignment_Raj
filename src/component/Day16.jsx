@@ -7,7 +7,7 @@ import Mainpage from "../localstorage/Mainpage"
 
 const Day16 = () => {
      const navigate = useNavigate()
-    const handleclick16=()=>{
+    let  handleclick=()=>{
          navigate("/")
         }
   return (
@@ -30,7 +30,7 @@ const Day16 = () => {
    </div>
 
 
-<button onClick={handleclick16}>Go to home</button>
+<button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
 </>
   )
 }

@@ -9,7 +9,7 @@ import SearchForm from "../useref/SearchForm"
 
 const Day15 = () => {
     const navigate = useNavigate()
-    const handleclick15=()=>{
+    const handleclick=()=>{
          navigate("/")
         }
         
@@ -34,8 +34,7 @@ const Day15 = () => {
     <h1 className="font-bold">Task 4</h1>
     <SearchForm/>
    </div>
-   
-     <button onClick={handleclick15}>Go to Home</button>
+   <button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
 
     </div>
     </>

@@ -1,14 +1,14 @@
 
 import './App.css'
 import Approuter from './router/Approuter'
-import Navbar from './component/Navbar'
+import Navbars from './component/Navbars'
 
 
 
 const App = () => {
   return (
     <>
-    <Navbar/>
+     <Navbars/> 
   <Approuter/>
   
 

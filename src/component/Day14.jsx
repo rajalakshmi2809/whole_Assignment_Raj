@@ -13,7 +13,7 @@ import Mainpage from "../usecontextproduct/Mainpage"
 const Day14 = () => {
   const navigate = useNavigate()
 
-  const handleclick7 = () => {
+  const handleclick = () => {
     navigate("/")
   }
 
@@ -46,8 +46,7 @@ const Day14 = () => {
      </div>  
 
 
-
-       <button onClick={handleclick7}>Go Home</button>
+<button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
     </>
   )
 }

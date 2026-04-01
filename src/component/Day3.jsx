@@ -12,10 +12,10 @@ const Day3 = () => {
   return (
     <>
     <Homepage/>
-    <button onClick={handleclick}>Go to Homepage</button>
+    <button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
     
     </>
   )
 }
 
-export default Day3
+export default Day3;

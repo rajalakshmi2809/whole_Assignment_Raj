@@ -1,8 +1,8 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
-import Home from '../day6/Home'
-import About from '../day6/About'
-import Contact from '../day6/Contact'
+import Home from './Home'
+import About from './About'
+import Contact from './Contact'
 
 
 

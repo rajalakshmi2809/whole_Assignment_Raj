@@ -6,7 +6,7 @@ import InputFocus from '../tasksday28/InputFocus'
 
 const Day17 = () => {
     const navigate = useNavigate()
-    const handleclick17=()=>{
+    const handleclick=()=>{
          navigate("/")
         }
   return (
@@ -26,7 +26,8 @@ const Day17 = () => {
     <InputFocus/>
     </div>
     </div>
-    <button onClick={handleclick17}>Go to home</button>
+   <button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
+    
     
     </>
   )

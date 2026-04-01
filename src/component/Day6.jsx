@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 
 const Day6 = () => {
     const navigate = useNavigate()
-    const handleclick6=()=>{
+    const handleclick=()=>{
          navigate("/")
         }
         
@@ -12,7 +12,7 @@ const Day6 = () => {
     <>
     <div>
     <Mainpage/>
-     <button onClick={handleclick6}>Assignement6</button>
+    <button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
 
     </div>
     </>
@@ -20,3 +20,4 @@ const Day6 = () => {
 }
 
 export default Day6
+

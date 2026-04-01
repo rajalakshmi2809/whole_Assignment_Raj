@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 const Day5 = () => {
         const navigate = useNavigate()
-    const handleclick5=()=>{
+    const handleclick=()=>{
          navigate("/")
         }
   return (
@@ -12,9 +12,7 @@ const Day5 = () => {
     <div>
 
    <Mainpage/>
-    <button onClick={handleclick5}>Assignement5</button>
-
-
+    <button  onClick={handleclick} className='bg-green-400 p-2 rounded-2xl'>Go to Home</button>
     </div>
     
     
