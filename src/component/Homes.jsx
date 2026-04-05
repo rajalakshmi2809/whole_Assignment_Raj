@@ -5,9 +5,9 @@ const Homes = () => {
   const navigate = useNavigate();
 
   return (
-    // <div className="min-h-screen b from-green-400 to-blue-500 p-5 text-center">
-     <div className="min-h-screen bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 p-5 text-center">
-    {/* // <div className="min-h-screen bg-gradient-to-r from-[#020617] via-[#0f172a] to-[#1e3a8a] p-5 text-center text-white"> */}
+    //  <div className="min-h-screen b from-green-400 to-blue-500 p-5 text-center">
+      // <div className="min-h-screen  from-purple-500 via-pink-500 to-red-500 p-5 text-center"> 
+     <div className="min-h-screen bg-gradient-to-r from-[#020617] via-[#0f172a] to-[#1e3a8a] p-5 text-center text-white"> 
       
       <h1 className="bg-black text-white rounded-2xl mb-10 p-5 text-2xl font-bold shadow-lg">
         🚀 All Assignments

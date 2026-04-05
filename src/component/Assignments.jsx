@@ -10,6 +10,8 @@ const Assignments = [
   { name: "Assignment16", path: "/localstorage" },
   { name: "Assignment17", path: "/usestate" },
   { name: "Assignment18", path: "/usememo" },
+    { name: "Assignment19", path: "/usememousecallback" },
+        { name: "Assignment20", path: "/usereduce" },
 ];
 
 export default Assignments;

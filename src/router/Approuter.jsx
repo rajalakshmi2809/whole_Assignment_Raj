@@ -50,6 +50,8 @@ import Day16 from "../component/Day16";
 import Day17 from "../component/Day17";
 import Day18 from "../component/Day18";
 import Day7 from "../component/Day7";
+import Day19 from "../component/Day19";
+import Day20 from "../component/Day20";
 
 // mapping object
 const componentMap = {
@@ -64,6 +66,8 @@ const componentMap = {
   "/localstorage": <Day16 />,
   "/usestate": <Day17 />,
   "/usememo": <Day18 />,
+   "/usememousecallback": <Day19 />,
+    "/usereduce": <Day20 />,
 };
 
 const AppRouter = () => {
