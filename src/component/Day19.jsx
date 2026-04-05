@@ -1,7 +1,7 @@
 import React from 'react'
-import ThmeArraySort from '../Usememotask30/ThmeArraySort'
-import CrudForm from '../Usememotask30/Crudform'
-import Search from '../Usememotask30/Search'
+import ThmeArraySort from '../usememotaskthirty/ThmeArraySort'
+import Crudform from '../usememotaskthirty/Crudform'
+import Search from '../usememotaskthirty/Search'
 
 
 const Day19 = () => {
@@ -19,7 +19,7 @@ const Day19 = () => {
     <Search/>
     </div>
     <div className='bg-red-400 p-4'>
-    <CrudForm/>
+    <Crudform/>
     </div>
     </>
   )
